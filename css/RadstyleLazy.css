@@ -59,7 +59,7 @@
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #00e056bd;
+  border-top-color: #000000bd;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -147,7 +147,7 @@ body {
 }
 
 .rad-nav nav {
-  background: #ffffff;
+  background: #5a95a3;
   height: 80px;
   width: 100%;
   padding-bottom: 90px;
@@ -182,7 +182,7 @@ body {
 }
 
 .rad-nav nav a.active {
-  background: #00e056bd;
+  background: #000000bd;
   -webkit-transition: .5s;
   transition: .5s;
   text-decoration: none;
@@ -191,13 +191,12 @@ body {
 
 .rad-nav nav a:hover {
   color: white;
-  background: #00e056bd;
+  background: #000000bd;
   -webkit-transition: .5s;
   transition: .5s;
   text-decoration: none;
-  padding: 10px;
-  -webkit-box-shadow: 0px 1px 7px -1px rgba(0, 158, 179, 0.86);
-          box-shadow: 0px 1px 7px -1px rgba(0, 158, 179, 0.86);
+  -webkit-box-shadow: gold;
+          box-shadow: gold;
 }
 
 label.logo {
@@ -246,7 +245,8 @@ label.logo img {
     position: absolute;
     width: 70%;
     height: 466px;
-    background-image: url(../image/landing-bg.png), linear-gradient(189deg, #ffffff 0%, #a5c2c6 100%) !important;
+    background-image: url(../images/diamond-drawing-4.png), linear-gradient(189deg, #ffffff 0%, #a5c2c6 100%) !important;
+    background-position: center;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -266,7 +266,7 @@ label.logo img {
   .rad-nav nav ul li a a:hover,
   .rad-nav nav ul li a a.active {
     background: none;
-    color: #20c7fa;
+    color: #323435;
     text-decoration: none;
     font-weight: 600;
     text-decoration: none;
@@ -288,5 +288,12 @@ label.logo img {
   -webkit-box-shadow: 0px 0px 3px 0px #9e9e9e;
           box-shadow: 0px 0px 3px 0px #9e9e9e;
   margin-top: -12px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background: url(../images/gol.png), linear-gradient(209deg, #3b4f74 37%, white 100%) !important;
+  background-size: 15% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
 }
 /*# sourceMappingURL=RadstyleLazy.css.map */
