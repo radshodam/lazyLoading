@@ -245,15 +245,17 @@ label.logo img {
     position: absolute;
     width: 70%;
     height: 466px;
-    background-image: url(../images/diamond-drawing-4.png), linear-gradient(189deg, #ffffff 0%, #a5c2c6 100%) !important;
+    background-image: url(../images/searad.png), linear-gradient(189deg, #ffffff 0%, #a5c2c6 100%) !important;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     top: 80px;
     left: -100%;
     text-align: center;
     -webkit-transition: all .5s;
     transition: all .5s;
     text-decoration: none;
-    border-radius: 2%;
+    border: 1px solid black;
   }
   .rad-nav nav ul li {
     display: block;
@@ -291,7 +293,6 @@ label.logo img {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   background: url(../images/gol.png), linear-gradient(209deg, #3b4f74 37%, white 100%) !important;
-  background-size: 15% !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: contain !important;
