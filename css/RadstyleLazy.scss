@@ -11,6 +11,10 @@ body {
     line-height: 1;
     font-family: "IRANSans";
     height: 100%;
+    background: url("../pics/000_APP1999100636607.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .rad-nav {
@@ -156,4 +160,31 @@ label.logo {
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: contain !important;
+}
+
+// START SECTION
+section {
+    margin-top: 102px;
+    background: url("../images/searad.png");
+    height: auto !important;
+    background-size: cover;
+    background-attachment: fixed;
+    .section {
+        background-image: url("../images/noorrad.png"), linear-gradient(209deg, #96999f 37%, white 100%) !important;
+        &__text {
+            font-weight: 600;
+            padding: 25px;
+        }
+    }
+    .gallery-pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        grid-template-rows: 1fr 1fr;
+        img {
+            padding: 25px;
+            width: 100%;
+            height: 380px;
+        }
+    }
 }
