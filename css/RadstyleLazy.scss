@@ -178,13 +178,17 @@ section {
     }
     .gallery-pics {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        grid-template-rows: 1fr 1fr;
-        img {
-            padding: 25px;
-            width: 100%;
-            height: 380px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 5px;
+        align-items: stretch;
+        grid-row: 100px;
+        grid-auto-flow: dense;
+        .RADwrapper-images {
+            img {
+                border: 1px solid #ccc;
+                box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+                max-width: 100%;
+            }
         }
     }
 }
