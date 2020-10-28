@@ -192,3 +192,27 @@ section {
         }
     }
 }
+
+footer {
+    background-color: #e5e5e5 !important;
+    width: 100%;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    p {
+        text-align: center;
+    }
+    a {
+        color: #736dbe;
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: 800;
+        &:hover {
+            color: #3b377ca6;
+            text-decoration: none;
+            background-color: transparent;
+            font-weight: 800;
+        }
+    }
+}
